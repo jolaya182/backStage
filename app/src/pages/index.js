@@ -10,6 +10,7 @@
 
 import React from 'react';
 import MainMenu from './mainMenu';
+import HomeForm from '../components/HomeForm';
 import pages from '../css/index.scss';
 
 
@@ -28,6 +29,7 @@ export const HomePage = () =><div>
             <section className="homePage">
                 <h1>HomePage</h1>
             </section>
+            <HomeForm></HomeForm>
         </div>
-    </PageTemplateF>
+    </PageTemplate>
 </div>

@@ -18,7 +18,6 @@ const App = () => (
         <Switch>
             <Route path='/' exact component={HomePage}></Route>
             <Route component={whoops404}></Route>
-
         </Switch>
     </Router>
 );
